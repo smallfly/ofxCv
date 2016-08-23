@@ -239,8 +239,8 @@ namespace ofxCv {
 		return toCv(img.getPixels());
 	}
 	cv::Mat toCv(ofMesh& mesh);
-	cv::Point2f toCv(glm::vec2 vec);
-	cv::Point3f toCv(glm::vec3 vec);
+	cv::Point2f toCv(const glm::vec2 vec);
+	cv::Point3f toCv(const glm::vec3 vec);
 	cv::Rect toCv(ofRectangle rect);
 	std::vector<cv::Point2f> toCv(const ofPolyline& polyline);
 	std::vector<cv::Point2f> toCv(const std::vector<glm::vec2>& points);

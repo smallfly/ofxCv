@@ -15,11 +15,11 @@ namespace ofxCv {
 		return mat;
 	}
 	
-	Point2f toCv(glm::vec2 vec) {
+	Point2f toCv(const glm::vec2 vec) {
 		return Point2f(vec.x, vec.y);
 	}
 	
-	Point3f toCv(glm::vec3 vec) {
+	Point3f toCv(const glm::vec3 vec) {
 		return Point3f(vec.x, vec.y, vec.z);
 	}
 	
